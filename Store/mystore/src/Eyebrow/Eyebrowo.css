@@ -1,0 +1,19 @@
+.one{
+    background-color: aqua;
+    width: 100px;
+}
+
+.two{
+    background-color: antiquewhite;
+    width: 100px;
+   
+}
+
+.two::before {
+    content: "abra";
+    background-color: aqua;
+    width: 30px;
+    position: relative;
+    /* left: 200px; */
+}
+
